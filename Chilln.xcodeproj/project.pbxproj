@@ -15,6 +15,15 @@
 		4E3037EB243D5A96002FBDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3037E9243D5A96002FBDAE /* LaunchScreen.storyboard */; };
 		4E3037F6243D5A97002FBDAE /* ChillnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3037F5243D5A97002FBDAE /* ChillnTests.swift */; };
 		4E303801243D5A97002FBDAE /* ChillnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E303800243D5A97002FBDAE /* ChillnUITests.swift */; };
+		4E3CEDC2243E2F9200AE7246 /* forestAmbient.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC1243E2F9200AE7246 /* forestAmbient.mp3 */; };
+		4E3CEDC4243E301600AE7246 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC3243E301600AE7246 /* click.mp3 */; };
+		4E3CEDC6243E34D600AE7246 /* relaxMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC5243E34D600AE7246 /* relaxMusic.mp3 */; };
+		4EED0371243EC20100139254 /* relaxMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC5243E34D600AE7246 /* relaxMusic.mp3 */; };
+		4EED0372243EC20200139254 /* relaxMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC5243E34D600AE7246 /* relaxMusic.mp3 */; };
+		4EED0373243EC20600139254 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC3243E301600AE7246 /* click.mp3 */; };
+		4EED0374243EC20700139254 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC3243E301600AE7246 /* click.mp3 */; };
+		4EED0375243EC20E00139254 /* forestAmbient.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC1243E2F9200AE7246 /* forestAmbient.mp3 */; };
+		4EED0376243EC20F00139254 /* forestAmbient.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3CEDC1243E2F9200AE7246 /* forestAmbient.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,9 @@
 		4E3037FC243D5A97002FBDAE /* ChillnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChillnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E303800243D5A97002FBDAE /* ChillnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChillnUITests.swift; sourceTree = "<group>"; };
 		4E303802243D5A97002FBDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3CEDC1243E2F9200AE7246 /* forestAmbient.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forestAmbient.mp3; sourceTree = "<group>"; };
+		4E3CEDC3243E301600AE7246 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		4E3CEDC5243E34D600AE7246 /* relaxMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = relaxMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,7 @@
 				4E3037DE243D5A96002FBDAE /* AppDelegate.swift */,
 				4E3037E0243D5A96002FBDAE /* SceneDelegate.swift */,
 				4E3037E2243D5A96002FBDAE /* ViewController.swift */,
+				4E3CEDC0243E2F8000AE7246 /* Sound */,
 				4E3037E4243D5A96002FBDAE /* Main.storyboard */,
 				4E3037E7243D5A96002FBDAE /* Assets.xcassets */,
 				4E3037E9243D5A96002FBDAE /* LaunchScreen.storyboard */,
@@ -126,6 +139,16 @@
 				4E303802243D5A97002FBDAE /* Info.plist */,
 			);
 			path = ChillnUITests;
+			sourceTree = "<group>";
+		};
+		4E3CEDC0243E2F8000AE7246 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4E3CEDC5243E34D600AE7246 /* relaxMusic.mp3 */,
+				4E3CEDC3243E301600AE7246 /* click.mp3 */,
+				4E3CEDC1243E2F9200AE7246 /* forestAmbient.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3037EB243D5A96002FBDAE /* LaunchScreen.storyboard in Resources */,
+				4E3CEDC6243E34D600AE7246 /* relaxMusic.mp3 in Resources */,
+				4E3CEDC4243E301600AE7246 /* click.mp3 in Resources */,
 				4E3037E8243D5A96002FBDAE /* Assets.xcassets in Resources */,
+				4E3CEDC2243E2F9200AE7246 /* forestAmbient.mp3 in Resources */,
 				4E3037E6243D5A96002FBDAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EED0376243EC20F00139254 /* forestAmbient.mp3 in Resources */,
+				4EED0371243EC20100139254 /* relaxMusic.mp3 in Resources */,
+				4EED0373243EC20600139254 /* click.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EED0375243EC20E00139254 /* forestAmbient.mp3 in Resources */,
+				4EED0372243EC20200139254 /* relaxMusic.mp3 in Resources */,
+				4EED0374243EC20700139254 /* click.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
 				INFOPLIST_FILE = Chilln/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F9V7VZ5QFQ;
 				INFOPLIST_FILE = Chilln/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

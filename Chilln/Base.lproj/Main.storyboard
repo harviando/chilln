@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,235 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chilln" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbg1" translatesAutoresizingMaskIntoConstraints="NO" id="vDm-Yt-EQz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbg2" translatesAutoresizingMaskIntoConstraints="NO" id="8ZJ-ET-1fI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbg3" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-1L-ihb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbg4" translatesAutoresizingMaskIntoConstraints="NO" id="TRE-bw-FcU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hbg5" translatesAutoresizingMaskIntoConstraints="NO" id="RXO-re-huR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m4Y-4F-yZi">
+                                <rect key="frame" x="-199" y="103" width="251" height="491"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SideMenu" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ka-Yh-PcI">
+                                        <rect key="frame" x="-50" y="-9" width="287" height="509"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsr-BH-8PI">
+                                        <rect key="frame" x="16" y="30" width="64" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="bgn5"/>
+                                        <connections>
+                                            <action selector="buttonN1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMf-Ld-ZfE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkl-fX-43c">
+                                        <rect key="frame" x="95" y="30" width="64" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="bgn4"/>
+                                        <connections>
+                                            <action selector="buttonN2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YNh-Dw-pTg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4E-7X-Rfl">
+                                        <rect key="frame" x="16" y="330" width="64" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="bgn1"/>
+                                        <connections>
+                                            <action selector="buttonN3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ui-5E-mhy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MxM-jI-cZk">
+                                        <rect key="frame" x="16" y="180" width="64" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="bgn2"/>
+                                        <connections>
+                                            <action selector="buttonN4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ah-cZ-Zc5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A08-ak-rIE">
+                                        <rect key="frame" x="95" y="180" width="64" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="bgn3"/>
+                                        <connections>
+                                            <action selector="buttonN5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EF3-Qv-xRd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mom-el-sW2">
+                                        <rect key="frame" x="94" y="330" width="64" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="underCons"/>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yp1-mT-8Km" userLabel="BottomBar">
+                                <rect key="frame" x="0.0" y="820" width="414" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CoG-1W-hcc" userLabel="BottopBase">
+                                        <rect key="frame" x="-60" y="0.0" width="535" height="95"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.98209856250000005" green="0.98657392190000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <button opaque="NO" alpha="0.75" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWC-yb-jZn" userLabel="ButtonNextKiri">
+                                        <rect key="frame" x="19" y="19" width="51" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <state key="normal" image="prev">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="42" weight="ultraLight"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonNKiri:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3bF-ws-B6i"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUf-fa-woj" userLabel="ButtonNextKanan">
+                                        <rect key="frame" x="344" y="18" width="51" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <state key="normal" image="next">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="42" weight="ultraLight"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonNKanan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="von-IC-2Da"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UOz-EZ-0Ja" userLabel="TopBar">
+                                <rect key="frame" x="0.0" y="-33" width="419" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZUu-DE-PzX" userLabel="TopBase">
+                                        <rect key="frame" x="-58" y="33" width="535" height="95"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.98209856250000005" green="0.98657392190000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHF-hE-jXl" userLabel="ButtonMenu">
+                                        <rect key="frame" x="8" y="88" width="31" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" image="menu">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="37"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g5L-c3-pBF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPk-TK-Nbf" userLabel="ButtonAudioOn">
+                                        <rect key="frame" x="371" y="76" width="26" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" image="icM">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="37"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zvE-2V-NhN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZN-Q1-mWN" userLabel="ButtonAudioOff">
+                                        <rect key="frame" x="371" y="76" width="26" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" image="IcMS">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="37"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonAoff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0v-7E-c76"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeV-rU-Y4T" userLabel="ButtonAmbientOn">
+                                        <rect key="frame" x="328" y="76" width="20" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="icA"/>
+                                        <connections>
+                                            <action selector="buttonAmbientOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LWE-fJ-2iI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nw-eS-ivb" userLabel="ButtonAmbientOff">
+                                        <rect key="frame" x="324" y="76" width="28" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="icAS"/>
+                                        <connections>
+                                            <action selector="buttonAmbientOff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wL-4F-3nd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xo7-Y7-d1g" userLabel="ButtonFullScreen">
+                                <rect key="frame" x="171" y="832" width="73" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.3679033518" green="0.70380967859999999" blue="0.2508605123" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="chevron.compact.down" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="65" weight="regular"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonFS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bcI-Wm-Mq7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ambientOff" destination="9nw-eS-ivb" id="fl6-vX-ZF4"/>
+                        <outlet property="ambientOn" destination="SeV-rU-Y4T" id="hsa-hB-4Ar"/>
+                        <outlet property="audioOff" destination="wZN-Q1-mWN" id="cYA-fL-n2y"/>
+                        <outlet property="audioOn" destination="oPk-TK-Nbf" id="pcb-Pd-bb3"/>
+                        <outlet property="bottomBar" destination="Yp1-mT-8Km" id="Nfh-fh-Wdd"/>
+                        <outlet property="buttonFullScreen" destination="Xo7-Y7-d1g" id="ywa-tg-drR"/>
+                        <outlet property="menu" destination="m4Y-4F-yZi" id="Lw1-Nt-KnO"/>
+                        <outlet property="n1" destination="vDm-Yt-EQz" id="jJd-is-Ckf"/>
+                        <outlet property="n2" destination="8ZJ-ET-1fI" id="JhL-SJ-aDn"/>
+                        <outlet property="n3" destination="uNc-1L-ihb" id="wCW-fR-OdX"/>
+                        <outlet property="n4" destination="TRE-bw-FcU" id="SM2-oY-Qef"/>
+                        <outlet property="n5" destination="RXO-re-huR" id="dgI-3n-NQJ"/>
+                        <outlet property="topBar" destination="UOz-EZ-0Ja" id="Zb4-at-mZr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IcMS" width="109" height="187"/>
+        <image name="SideMenu" width="151" height="400"/>
+        <image name="bgn1" width="207" height="448"/>
+        <image name="bgn2" width="207" height="448"/>
+        <image name="bgn3" width="207" height="448"/>
+        <image name="bgn4" width="207" height="448"/>
+        <image name="bgn5" width="207" height="448"/>
+        <image name="chevron.compact.down" catalog="system" width="64" height="20"/>
+        <image name="hbg1" width="3001" height="6494"/>
+        <image name="hbg2" width="3001" height="6494"/>
+        <image name="hbg3" width="3001" height="6494"/>
+        <image name="hbg4" width="3001" height="6494"/>
+        <image name="hbg5" width="3001" height="6494"/>
+        <image name="icA" width="77.5" height="215"/>
+        <image name="icAS" width="109" height="215"/>
+        <image name="icM" width="102.5" height="187"/>
+        <image name="menu" width="173" height="173"/>
+        <image name="next" width="156" height="122"/>
+        <image name="prev" width="155.5" height="121.5"/>
+        <image name="underCons" width="207" height="448"/>
+    </resources>
 </document>
